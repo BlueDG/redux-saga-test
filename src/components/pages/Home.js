@@ -19,7 +19,6 @@ class Home extends React.Component {
 
   render() {
     const { items = [] } = this.props.data;
-    console.log(items);
     return (
       <Main>
         {items.length > 0 ? (
